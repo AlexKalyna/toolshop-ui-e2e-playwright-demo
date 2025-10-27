@@ -131,7 +131,7 @@ jobs:
           node-version: lts/*
 
       - name: Download All Test Results
-        uses: actions/download-artifact@v4
+        uses: actions/download-artifact@v6
         with:
           path: all-blob-reports
           pattern: blob-report-*
@@ -177,7 +177,7 @@ jobs:
       - name: Install Dependencies
         uses: ./.github/actions/setup-node-project/
       - name: Download Test Results
-        uses: actions/download-artifact@v4
+        uses: actions/download-artifact@v6
         with:
           path: all-blob-reports
           pattern: blob-report-*
