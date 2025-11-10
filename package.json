@@ -55,7 +55,7 @@
   },
   "dependencies": {
     "dotenv": "^17.2.3",
-    "envalid": "^8.0.0"
+    "envalid": "^8.1.1"
   },
   "overrides": {
     "eslint": "^9.20.0"
