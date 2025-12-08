@@ -39,7 +39,7 @@
   "description": "",
   "devDependencies": {
     "@faker-js/faker": "^10.0.0",
-    "@playwright/test": "^1.56.0",
+    "@playwright/test": "^1.57.0",
     "@types/node": "^22.10.2",
     "@typescript-eslint/eslint-plugin": "^8.46.0",
     "@typescript-eslint/parser": "^8.24.0",
